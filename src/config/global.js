@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Buenas prácticas en la higiene de los alimentos ',
+    descripcionCurso:
+      'El componente aborda las prácticas óptimas para la higiene en la fabricación de alimentos, basadas en la Resolución 2674 de 2013 del Ministerio de Salud y Protección Social. Destaca la importancia de la ubicación, diseño, construcción y mantenimiento de instalaciones, así como el manejo adecuado de equipos, utensilios y residuos. Además, enfatiza la limpieza, desinfección y control de plagas para garantizar la seguridad alimentaria. ',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
