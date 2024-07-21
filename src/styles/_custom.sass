@@ -3,11 +3,16 @@
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 40%
-    right: 50%
+    right: 80%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
+    top: 31%
+    right: 10%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 71%
     right: 30%
 
 
@@ -36,6 +41,8 @@
   background-image: url(../assets/curso/temas/fondo-slyder.png)
 .fondo-section
   background-image: url(../assets/curso/temas/fondo-section.png)
+  background-repeat: no-repeat
+  background-size: cover
 .card-verde
   background-image: url(../assets/curso/temas/card-verde.png)
 .card-amarilla
@@ -44,9 +51,11 @@
   background-image: url(../assets/curso/temas/card-n.svg)
 .card-naranja
   background-image: url(../assets/curso/temas/card-naranja.svg)
-  transition: background-image 0.2s ease-in-out
+  transition: background 0.2s ease-in-out
+  background-color: #fddbb4
   &:hover
     background-image: url(../assets/curso/temas/card-naranja2.svg)
+    background-color: #f9a545
 
 //FONDOS
 
@@ -80,5 +89,19 @@
   background-color: #238AA4
   i
     color: $white
+.fa-chevron-right:before
+  content: url(../assets/curso/temas/flecha1.svg)
+.fa-chevron-left:before
+  content: url(../assets/curso/temas/flecha2.svg)
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #238AA4
+  opacity: 1
+  border: 0
+  background-image: url(../assets/curso/temas/flecha3.svg)
+.slyder-a__bullets__item
+  background-color: #f3eac9
+.slyder-a__bullets__item--active
+  background-color: #DCC366
+  border: 0
 
 

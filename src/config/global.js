@@ -8,11 +8,15 @@ export default {
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/a1.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/a2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/a3.svg'),
       },
     ],
   },
@@ -32,13 +36,19 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          'Condiciones básicas de higiene en la fabricación de alimentos ',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Edificios e instalaciones',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Equipos y utensilios',
+            hash: 't_1_2',
           },
         ],
       },
@@ -46,14 +56,25 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Limpieza y desinfección ',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Agentes limpiadores',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Manejo de residuos sólidos y líquidos',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Control de plagas',
+            hash: 't_2_3',
+          },
+        ],
       },
     ],
     subMenu: [
