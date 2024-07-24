@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Diagrama sobre Buenas Prácticas en la Higiene de los Alimentos, que asegura la seguridad y calidad en su fabricación y procesamiento. Incluye la ubicación y acceso sin contaminación, diseño y construcción con materiales resistentes, equipos y utensilios no corrosivos, manejo de residuos (biodegradables, reciclables, químicos y biológicos), y limpieza y desinfección  para eliminar residuos visibles y microorganismos.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
