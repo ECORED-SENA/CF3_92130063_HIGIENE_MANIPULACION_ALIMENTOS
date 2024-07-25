@@ -15,7 +15,7 @@ export default {
   components: { Actividad },
   data: () => ({
     cuestionario: {
-      tema: 'Manejo de los residuos sólidos en la producción avícola.',
+      tema: 'Buenas prácticas en la higiene de los alimentos.',
       titulo: 'Cuestionario',
       introduccion:
         'Lea cada enunciado y luego seleccione la respuesta correcta según corresponda.',
@@ -24,102 +24,277 @@ export default {
         {
           id: 1,
           texto:
-            'Cuáles son los tipos de explotación en los sistemas productivos avícolas:',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+            'Una fábrica de alimentos ha sido ubicada cerca de un basurero, y los alrededores no están siendo limpiados adecuadamente. ¿Cuál es el principal riesgo que esta ubicación representa para la seguridad alimentaria?',
+          imagen: require('@/assets/componentes/preguntas/Grupo 1099887.png'),
           barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Explotación intensiva', esCorrecta: false },
-            { id: 'b', texto: 'Explotación semi intensiva', esCorrecta: false },
             {
-              id: 'c',
-              texto: 'Explotación extensiva o traspatio',
+              id: 'a',
+              texto: 'Aumento en el costo de producción',
               esCorrecta: false,
             },
-            { id: 'd', texto: 'Todas la anteriores', esCorrecta: true },
+            {
+              id: 'b',
+              texto: 'Mejor calidad de los alimentos',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Contaminación de los alimentos',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Reducción del tiempo de producción',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
         },
         {
           id: 2,
           texto:
-            'Se lanzan dos proyectiles desde el suelo con la misma velocidad inicial, pero uno se lanza horizontalmente y el otro se lanza formando un ángulo de 45 grados con la horizontal. Considerando la resistencia del aire despreciable, ¿cuáles de las siguientes afirmaciones son verdaderas?',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
+            'Un restaurante tiene pisos de madera en su área de preparación de alimentos, lo que ha causado dificultades para mantener una adecuada limpieza. ¿Qué tipo de piso sería más adecuado para cumplir con las buenas prácticas de higiene?',
+          imagen: require('@/assets/componentes/preguntas/Grupo 1100026.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Ambos proyectiles alcanzarán la misma altura máxima.',
+              texto: 'Alfombrados y suaves',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Impermeables y lisos',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Resbaladizos y absorbentes',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'De tierra compactada',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 3,
+          texto:
+            'Un establecimiento ha observado un aumento en la presencia de roedores. ¿Cuál es la medida más efectiva que debe tomar para controlar esta plaga y proteger la seguridad alimentaria?',
+          imagen: require('@/assets/componentes/preguntas/Grupo 1100055.png'),
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Dejar residuos sólidos acumulados',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Mantener cañerías y desagües abiertos',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Fumigar periódicamente y mantener áreas limpias',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Permitir la entrada de animales domésticos',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 4,
+          texto:
+            'Una planta procesadora de alimentos tiene equipos fabricados con materiales que se oxidan fácilmente, dificultando la limpieza y desinfección. ¿Qué tipo de material sería más apropiado para estos equipos?',
+          imagen: require('@/assets/componentes/preguntas/Grupo 1099887.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Acero inoxidable', esCorrecta: true },
+            { id: 'b', texto: 'Madera', esCorrecta: false },
+            { id: 'c', texto: 'Material poroso', esCorrecta: false },
+            { id: 'd', texto: 'Vidrio común', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 5,
+          texto:
+            'Durante una inspección, se encontró que un área de procesamiento de alimentos tenía puertas de material absorbente y difícil de limpiar. ¿Qué características deben tener las puertas para cumplir con las normas de higiene?',
+          imagen: require('@/assets/componentes/preguntas/Grupo 1100026.png'),
+          opciones: [
+            { id: 'a', texto: 'Superficie porosa', esCorrecta: false },
+            { id: 'b', texto: 'Material absorbente', esCorrecta: false },
+            {
+              id: 'c',
+              texto: 'Superficie lisa y no absorbente',
+              esCorrecta: true,
+            },
+            { id: 'd', texto: 'Cubiertas de tela', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 6,
+          texto:
+            'Un manipulador de alimentos limpia las superficies visibles pero no realiza una desinfección adecuada. ¿Qué riesgo representa esta práctica?',
+          imagen: require('@/assets/componentes/preguntas/Grupo 1100055.png'),
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Aumento en la eficiencia del trabajo',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Mejora en la apariencia de las instalaciones',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Persistencia de microorganismos y riesgo de contaminación',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Reducción de costos de limpieza',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 7,
+          texto:
+            'En una cocina, se han estado utilizando detergentes no adecuados para la industria alimentaria, lo que ha resultado en residuos químicos en las superficies de preparación. ¿Cuál es la propiedad esencial que deben tener los agentes limpiadores utilizados?',
+          imagen: require('@/assets/componentes/preguntas/Grupo 1099887.png'),
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'No ser corrosivos y ser adecuados para el contacto con alimentos',
+              esCorrecta: true,
+            },
+            { id: 'b', texto: 'Ser de bajo costo', esCorrecta: false },
+            { id: 'c', texto: 'Tener un color fuerte', esCorrecta: false },
+            { id: 'd', texto: 'Ser difíciles de enjuagar', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 8,
+          texto:
+            'Un restaurante desecha sus residuos sin clasificarlos, lo que ha generado problemas de contaminación cruzada. ¿Cuál es la clasificación correcta de los residuos para evitar este problema?',
+          imagen: require('@/assets/componentes/preguntas/Grupo 1100026.png'),
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Residuos peligrosos y no peligrosos sin diferenciación',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'El proyectil lanzado horizontalmente recorrerá una distancia horizontal mayor que el proyectil lanzado a 45 grados',
+                'Residuos no peligrosos (biodegradables, reciclables) y peligrosos (químicos, biológicos)',
+              esCorrecta: true,
+            },
+            { id: 'c', texto: 'Mezclar todos los residuos', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Solo separar residuos orgánicos',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 9,
+          texto:
+            'Una empresa no realiza inspecciones de calidad al recibir materias primas, lo que ha llevado a la presencia de plagas en su stock. ¿Qué acción debe tomar para evitar esta situación?',
+          imagen: require('@/assets/componentes/preguntas/Grupo 1100055.png'),
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Almacenar las materias primas sin revisión',
               esCorrecta: false,
             },
             {
-              id: 'c',
+              id: 'b',
               texto:
-                'La velocidad horizontal del proyectil lanzado a 45 grados será mayor que la velocidad horizontal del proyectil lanzado horizontalmente.',
+                'Inspeccionar y verificar la calidad del producto al recibirlo',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Utilizar productos sin verificar su procedencia',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Almacenar productos sin medidas de control',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 10,
+          texto:
+            'En un establecimiento, las ventanas no tienen mosquiteros y se ha detectado la entrada de insectos. ¿Qué medida debe implementarse para cumplir con las buenas prácticas de higiene?',
+          imagen: require('@/assets/componentes/preguntas/Grupo 1099887.png'),
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Mantener las ventanas abiertas todo el tiempo',
+              esCorrecta: false,
+            },
+            { id: 'b', texto: 'Usar cortinas de tela', esCorrecta: false },
+            {
+              id: 'c',
+              texto: 'Instalar mosquiteros en las ventanas',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto:
-                'La velocidad total del proyectil lanzado a 45 grados en el punto más alto de su trayectoria será la misma que la velocidad horizontal del proyectil lanzado horizontalmente en cualquier punto de su trayectoria.',
+              texto: 'Dejar las ventanas sin protección',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto:
-            '¡Perfecto! Has seleccionado la respuesta correcta.',
-          mensaje_incorrecto: 'Esa no es la respuesta correcta. ¡Ánimo!',
-        },
-        {
-          id: 3,
-          texto: 'Texto de la tercera pregunta 3',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
-          opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: true },
-          ],
-          mensaje_correcto: '¡Muy bien! Esa es la respuesta correcta.',
-          mensaje_incorrecto: 'Respuesta incorrecta. ¡Inténtalo de nuevo!',
-        },
-        {
-          id: 4,
-          texto: 'Texto de la cuarta pregunta 4',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: true },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
-        },
-        {
-          id: 5,
-          texto: 'Texto de la quinta pregunta 5',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
-          opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: true },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
         },
       ],
       mensaje_final_aprobado:
-        '¡Has completado el cuestionario exitosamente! Felicidades.',
+        '¡Excelente! Te felicito, has superado la actividad.',
       mensaje_final_reprobado:
-        'No has alcanzado la puntuación mínima para aprobar. Te animamos a intentarlo de nuevo.',
+        'Te recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica',
     },
   }),
   computed: {},
