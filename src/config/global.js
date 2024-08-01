@@ -129,7 +129,7 @@ export default {
         'Agència Catalana de Seguretat Alimentària. (2021). Manual de manipuladores de alimentos.',
       tipo: 'Documento',
       descarga:
-        'https://acsa.gencat.cat/web/.content/_Publicacions/Material-restauracio/Manual-manipulador/Manual-manipuladores-alimentos.pdf',
+        'https://scientiasalut.gencat.cat/bitstream/handle/11351/5178/manual_basic_manipulacio_aliments_2019_cas.pdf?sequence=7&isAllowed=y',
     },
     {
       tema: 'Edificios e instalaciones',
@@ -170,7 +170,7 @@ export default {
     {
       tema: 'Control de plagas',
       referencia:
-        'Alicorp Oficial. (2020). GUÍA PARA EL CONTROL DE PLAGAS - CRECEMOS JUNTOS. [Archivo de video] Youtube.',
+        'Alicorp Oficial. (2020). Guía para el control de plagas - crecemos juntos. [Archivo de video] Youtube.',
       tipo: 'Video',
       link: 'https://youtu.be/YMG0y70Rh_E?feature=shared',
     },
@@ -219,7 +219,7 @@ export default {
     {
       termino: 'Infestación',
       significado:
-        'es la presencia y multiplicación de plagas que pueden contaminar o deteriorar los alimentos y/o materias primas',
+        'es la presencia y multiplicación de plagas que pueden contaminar o deteriorar los alimentos y/o materias primas.',
     },
     {
       termino: 'Ordinarios o comunes',
@@ -354,11 +354,6 @@ export default {
       autores: [
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador de Recursos Educativos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },

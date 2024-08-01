@@ -274,23 +274,23 @@
         tbody
           tr
             td No peligrosos biodegradables 
-            td Hojas y tallos de los árboles, grama, barrido del prado, resto de alimentos contaminados 
+            td Hojas y tallos de los árboles, grama, barrido del prado, resto de alimentos contaminados. 
             td Verde 
             td Rotular con: residuos aprovechables 
           tr
             td No peligrosos residuos no aprovechables 
-            td Papel higiénico, servilletas, papeles y cartones contaminados con comida, papeles metalizados 
+            td Papel higiénico, servilletas, papeles y cartones contaminados con comida, papeles metalizados. 
             td Negro
             td Rotular con: residuos no aprovechable
           tr
             td No peligrosos residuos aprovechables 
-            td Plástico, cartón, vidrio, papel y metales 
+            td Plástico, cartón, vidrio, papel y metales. 
             td Blanco 
             td Rotular con: residuos aprovechables 
     Separador
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.3 Control de plagas
-    p.mb-5(data-aos='fade-right') El control de plagas se refiere a la gestión de especies animales que se reproducen de manera descontrolada y pueden actuar como vectores de enfermedades graves para los seres humanos. Entre estas especies se incluyen principalmente roedores e insectos
+    p.mb-5(data-aos='fade-right') El control de plagas se refiere a la gestión de especies animales que se reproducen de manera descontrolada y pueden actuar como vectores de enfermedades graves para los seres humanos. Entre estas especies se incluyen principalmente roedores e insectos.
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/66.png')})`}"

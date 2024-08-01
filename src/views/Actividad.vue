@@ -30,22 +30,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Aumento en el costo de producción',
+              texto: 'Aumento en el costo de producción.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Mejor calidad de los alimentos',
+              texto: 'Mejor calidad de los alimentos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Contaminación de los alimentos',
+              texto: 'Contaminación de los alimentos.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Reducción del tiempo de producción',
+              texto: 'Reducción del tiempo de producción.',
               esCorrecta: false,
             },
           ],
@@ -62,22 +62,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Alfombrados y suaves',
+              texto: 'Alfombrados y suaves.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Impermeables y lisos',
+              texto: 'Impermeables y lisos.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Resbaladizos y absorbentes',
+              texto: 'Resbaladizos y absorbentes.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'De tierra compactada',
+              texto: 'De tierra compactada.',
               esCorrecta: false,
             },
           ],
@@ -93,22 +93,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Dejar residuos sólidos acumulados',
+              texto: 'Dejar residuos sólidos acumulados.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Mantener cañerías y desagües abiertos',
+              texto: 'Mantener cañerías y desagües abiertos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Fumigar periódicamente y mantener áreas limpias',
+              texto: 'Fumigar periódicamente y mantener áreas limpias.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Permitir la entrada de animales domésticos',
+              texto: 'Permitir la entrada de animales domésticos.',
               esCorrecta: false,
             },
           ],
@@ -123,10 +123,10 @@ export default {
           imagen: require('@/assets/componentes/preguntas/Grupo 1099887.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Acero inoxidable', esCorrecta: true },
-            { id: 'b', texto: 'Madera', esCorrecta: false },
-            { id: 'c', texto: 'Material poroso', esCorrecta: false },
-            { id: 'd', texto: 'Vidrio común', esCorrecta: false },
+            { id: 'a', texto: 'Acero inoxidable.', esCorrecta: true },
+            { id: 'b', texto: 'Madera.', esCorrecta: false },
+            { id: 'c', texto: 'Material poroso.', esCorrecta: false },
+            { id: 'd', texto: 'Vidrio común.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
           mensaje_incorrecto:
@@ -138,14 +138,14 @@ export default {
             'Durante una inspección, se encontró que un área de procesamiento de alimentos tenía puertas de material absorbente y difícil de limpiar. ¿Qué características deben tener las puertas para cumplir con las normas de higiene?',
           imagen: require('@/assets/componentes/preguntas/Grupo 1100026.png'),
           opciones: [
-            { id: 'a', texto: 'Superficie porosa', esCorrecta: false },
-            { id: 'b', texto: 'Material absorbente', esCorrecta: false },
+            { id: 'a', texto: 'Superficie porosa.', esCorrecta: false },
+            { id: 'b', texto: 'Material absorbente.', esCorrecta: false },
             {
               id: 'c',
-              texto: 'Superficie lisa y no absorbente',
+              texto: 'Superficie lisa y no absorbente.',
               esCorrecta: true,
             },
-            { id: 'd', texto: 'Cubiertas de tela', esCorrecta: false },
+            { id: 'd', texto: 'Cubiertas de tela.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
           mensaje_incorrecto:
@@ -159,23 +159,23 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Aumento en la eficiencia del trabajo',
+              texto: 'Aumento en la eficiencia del trabajo.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Mejora en la apariencia de las instalaciones',
+              texto: 'Mejora en la apariencia de las instalaciones.',
               esCorrecta: false,
             },
             {
               id: 'c',
               texto:
-                'Persistencia de microorganismos y riesgo de contaminación',
+                'Persistencia de microorganismos y riesgo de contaminación.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Reducción de costos de limpieza',
+              texto: 'Reducción de costos de limpieza.',
               esCorrecta: false,
             },
           ],
@@ -192,12 +192,12 @@ export default {
             {
               id: 'a',
               texto:
-                'No ser corrosivos y ser adecuados para el contacto con alimentos',
+                'No ser corrosivos y ser adecuados para el contacto con alimentos.',
               esCorrecta: true,
             },
-            { id: 'b', texto: 'Ser de bajo costo', esCorrecta: false },
-            { id: 'c', texto: 'Tener un color fuerte', esCorrecta: false },
-            { id: 'd', texto: 'Ser difíciles de enjuagar', esCorrecta: false },
+            { id: 'b', texto: 'Ser de bajo costo.', esCorrecta: false },
+            { id: 'c', texto: 'Tener un color fuerte.', esCorrecta: false },
+            { id: 'd', texto: 'Ser difíciles de enjuagar.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
           mensaje_incorrecto:
@@ -211,19 +211,23 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Residuos peligrosos y no peligrosos sin diferenciación',
+              texto: 'Residuos peligrosos y no peligrosos sin diferenciación.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Residuos no peligrosos (biodegradables, reciclables) y peligrosos (químicos, biológicos)',
+                'Residuos no peligrosos (biodegradables, reciclables) y peligrosos (químicos, biológicos).',
               esCorrecta: true,
             },
-            { id: 'c', texto: 'Mezclar todos los residuos', esCorrecta: false },
+            {
+              id: 'c',
+              texto: 'Mezclar todos los residuos.',
+              esCorrecta: false,
+            },
             {
               id: 'd',
-              texto: 'Solo separar residuos orgánicos',
+              texto: 'Solo separar residuos orgánicos.',
               esCorrecta: false,
             },
           ],
@@ -239,23 +243,23 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Almacenar las materias primas sin revisión',
+              texto: 'Almacenar las materias primas sin revisión.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Inspeccionar y verificar la calidad del producto al recibirlo',
+                'Inspeccionar y verificar la calidad del producto al recibirlo.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Utilizar productos sin verificar su procedencia',
+              texto: 'Utilizar productos sin verificar su procedencia.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Almacenar productos sin medidas de control',
+              texto: 'Almacenar productos sin medidas de control.',
               esCorrecta: false,
             },
           ],
@@ -271,18 +275,18 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Mantener las ventanas abiertas todo el tiempo',
+              texto: 'Mantener las ventanas abiertas todo el tiempo.',
               esCorrecta: false,
             },
-            { id: 'b', texto: 'Usar cortinas de tela', esCorrecta: false },
+            { id: 'b', texto: 'Usar cortinas de tela.', esCorrecta: false },
             {
               id: 'c',
-              texto: 'Instalar mosquiteros en las ventanas',
+              texto: 'Instalar mosquiteros en las ventanas.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Dejar las ventanas sin protección',
+              texto: 'Dejar las ventanas sin protección.',
               esCorrecta: false,
             },
           ],
