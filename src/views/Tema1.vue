@@ -105,11 +105,13 @@
       .col-lg-4.mb-lg-0.mb-3
         .tarjeta.fondo.card-amarilla.p-5.h-100
           img(src='@/assets/curso/temas/17.png', alt='').mb-4
-          p Los techos deben estar diseñados para evitar la acumulación de suciedad y deben ser lavables.
+          p.mb-2 #[strong Techos]
+          p.lh-sm Los techos deben estar diseñados para evitar la acumulación de suciedad y deben ser lavables.
       .col-lg-4.mb-lg-0.mb-3
         .tarjeta.fondo.card-amarilla.p-5.h-100
           img(src='@/assets/curso/temas/18.png', alt='').mb-4
-          p Las ventanas y aberturas deben ser construidas de manera que no permitan la entrada de plagas y demás contaminantes. Se deben diseñar de forma tal que puedan abrirse y cerrarse fácilmente para facilitar la ventilación.
+          p.mb-2 #[strong Ventanas y aberturas]
+          p.lh-sm Las ventanas y aberturas deben ser construidas de manera que no permitan la entrada de plagas y demás contaminantes. Se deben diseñar de forma tal que puedan abrirse y cerrarse fácilmente para facilitar la ventilación.
     .titulo-tres: h3 Puertas 
     p.mb-5(data-aos='fade-right') Las puertas juegan un papel fundamental en mantener la higiene y seguridad dentro de las áreas de procesamiento de alimentos. 
     .row.justify-content-center.align-items-center.mb-5

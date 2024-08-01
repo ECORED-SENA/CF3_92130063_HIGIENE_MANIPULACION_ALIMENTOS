@@ -103,44 +103,50 @@
       .col-lg-8.mb-lg-0.mb-3
         p Estos compuestos son agentes químicos diseñados para retirar las impurezas y los depósitos de minerales. Las propiedades de estos agentes químicos son: 
         .row.justify-content-center.mb-5
-          .col-lg-3.mb-lg-0.mb-3
+          .col-lg-3.mb-3
             .tarjeta.p-4(style="background-color:#d2d5d2 ").h-100
               p.mb-0 No son corrosivos.
-          .col-lg-3.mb-lg-0.mb-3
+          .col-lg-3.mb-3
             .tarjeta.p-4(style="background-color:#d2d5d2 ").h-100
               p.mb-0 Ablandan completamente la suciedad.
-          .col-lg-3.mb-lg-0.mb-3
+          .col-lg-3.mb-3
             .tarjeta.p-4(style="background-color:#d2d5d2 ").h-100
               p.mb-0 Solubilidad rápida y completa.
-          .col-lg-3.mb-lg-0.mb-3
+          .col-lg-3.mb-3
             .tarjeta.p-4(style="background-color:#d2d5d2 ").h-100
               p.mb-0 Acción germicida.
+          .col-lg-3.mb-3
+            .tarjeta.p-4(style="background-color:#d2d5d2 ").h-100
+              p.mb-0 No son tóxicos.
+          .col-lg-3.mb-3
+            .tarjeta.p-4(style="background-color:#d2d5d2 ").h-100
+              p.mb-0 Acción emulsionante y humectante.
         .tarjeta.rounded-pill.p-2.d-inline-block.mb-4(style="background-color: #f1e7c2")
           h4.mb-0.mx-4 Detergentes 
         p.mb-5(data-aos='fade-right') Todos los detergentes contienen sustancias que disuelven la tensión entre la superficie sucia y el detergente, por lo que se llaman tensioactivos. Estas sustancias ablandan las impurezas, facilitando su eliminación. Se clasifican en:  
       .col-lg-4.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/45.png', alt='')
     .row.justify-content-center.mb-5
       .col-lg-4.mb-lg-0.mb-3
-        .tarjeta.fondo.card-naranja.p-5
+        .tarjeta.fondo.card-naranja.p-5.h-100
           img(src='@/assets/curso/temas/46.svg', alt='' style="width:89px").m-auto.mb-4
-          .d-flex.justify-content-center
-            .d-inline-block.p-2.bg-white
-              h4.mb-0 Limpiadores alcalinos 
-              p.text-center Son los llamados desengrasantes, sirven para limpiar la superficie de hornos, parrillas, entre otros. 
+          .d-flex.justify-content-center.mb-3
+            .d-inline-block.p-2.bg-color-primario
+              h4.mb-0.px-3 Limpiadores alcalinos 
+          p.text-center Son los llamados desengrasantes, sirven para limpiar la superficie de hornos, parrillas, entre otros. 
       .col-lg-4.mb-lg-0.mb-3
-        .tarjeta.fondo.card-naranja.p-5
+        .tarjeta.fondo.card-naranja.p-5.h-100
           img(src='@/assets/curso/temas/47.svg', alt='' style="width:89px").m-auto.mb-4
-          .d-flex.justify-content-center
-            .d-inline-block.p-2.bg-white
-              h4.mb-0 Limpiadores ácidos 
-              p.text-center Se utilizan cuando los limpiadores alcalinos no funcionan, sirven para eliminar residuos minerales, manchas de óxido y placas de lavalozas en las máquinas. 
+          .d-flex.justify-content-center.mb-3
+            .d-inline-block.p-2.bg-color-primario
+              h4.mb-0.px-3 Limpiadores ácidos 
+          p.text-center Se utilizan cuando los limpiadores alcalinos no funcionan, sirven para eliminar residuos minerales, manchas de óxido y placas de lavalozas en las máquinas. 
       .col-lg-4.mb-lg-0.mb-3
-        .tarjeta.fondo.card-naranja.p-5
+        .tarjeta.fondo.card-naranja.p-5.h-100
           img(src='@/assets/curso/temas/48.svg', alt='' style="width:89px").m-auto.mb-4
-          .d-flex.justify-content-center
-            .d-inline-block.p-2.bg-white
-              h4.mb-0 Limpiadores polifosfatos 
-              p.text-center Estos contienen desengrasantes que pueden ser frotados o tallados sobre las manchas difíciles de eliminar y son utilizados en pisos y sartenes que tienen la grasa pegada. 
+          .d-flex.justify-content-center.mb-3
+            .d-inline-block.p-2.bg-color-primario
+              h4.mb-0.px-3 Limpiadores polifosfatos 
+          p.text-center Estos contienen desengrasantes que pueden ser frotados o tallados sobre las manchas difíciles de eliminar y son utilizados en pisos y sartenes que tienen la grasa pegada. 
     Separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.2 Manejo de residuos sólidos y líquidos
@@ -308,7 +314,7 @@
           .row.justify-content-center.mb-3
             .col-5
               img(src='@/assets/curso/temas/67.svg' alt='AvatarTop')
-          p Mantener la limpieza y desinfección en todas las áreas, desde la recepción de materias primas hasta el almacenamiento. 
+          p No dejar acumular residuos sólidos de ninguna clase. 
         .tarjeta.p-4(style='background-color: #c1ddc7')
           .row.justify-content-center.mb-3
             .col-5
