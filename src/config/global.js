@@ -128,7 +128,7 @@ export default {
       referencia:
         'Agència Catalana de Seguretat Alimentària. (2021). Manual de manipuladores de alimentos.',
       tipo: 'Documento',
-      descarga:
+      link:
         'https://scientiasalut.gencat.cat/bitstream/handle/11351/5178/manual_basic_manipulacio_aliments_2019_cas.pdf?sequence=7&isAllowed=y',
     },
     {
@@ -157,7 +157,7 @@ export default {
       referencia:
         'Ministerio de Ambiente y Desarrollo Sostenible. (2021). Guía de limpieza y desinfección.',
       tipo: 'Guía',
-      descarga:
+      link:
         'https://www.minambiente.gov.co/wp-content/uploads/2021/11/GUIA_DE_LIMPIEZA_Y_DESINFECCION.pdf',
     },
     {
