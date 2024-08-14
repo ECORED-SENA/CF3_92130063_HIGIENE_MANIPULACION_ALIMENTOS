@@ -108,7 +108,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/Sintesis.pdf',
+        download: 'downloads/92130063_CF03_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -299,12 +299,12 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
+          cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
           nombre: 'Olga Constanza Bermúdez Jaimes',
-          cargo: 'Responsable de Línea de Producción',
+          cargo: 'Responsable de línea de producción',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -314,7 +314,7 @@ export default {
       autores: [
         {
           nombre: 'Beatriz Elena Marín Rodríguez E',
-          cargo: 'Experta Temática',
+          cargo: 'Experta temática',
           centro: 'Centro de Industria Tolima - Regional Tolima',
         },
         {
@@ -329,22 +329,17 @@ export default {
       autores: [
         {
           nombre: 'Carlos Julian Ramirez Benitez',
-          cargo: 'Diseñador de Contenidos Digitales',
+          cargo: 'Diseñador de contenidos',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Edgar Mauricio Cortes Garcia',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Edgar Mauricio Cortes Garcia',
-          cargo: 'Actividad Didáctica',
+          cargo: 'Actividad didáctica',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -354,17 +349,17 @@ export default {
       autores: [
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Margarita Marcela Medrano Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
