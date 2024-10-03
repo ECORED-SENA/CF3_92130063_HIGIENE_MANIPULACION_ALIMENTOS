@@ -255,15 +255,19 @@
             .col-lg-4
               figure
                 img(src='@/assets/curso/temas/63.png', alt='Texto que describa la imagen')
-    .tarjeta.rounded-pill.p-2.d-inline-block.mb-4(style="background-color: #f1e7c2")
+    .tarjeta.rounded-pill.p-2.d-inline-block.mb-5(style="background-color: #f1e7c2")
       h4.mb-0.mx-4 Residuos peligrosos 
     .row.justify-content-center.mb-5
       .col-lg-10.mb-lg-0.mb-3(data-aos="fade-right")
-        p.mb-3 Son aquellos residuos producidos por el generador con alguna de las siguientes características: infecciosos o de riesgo biológico, combustibles, inflamables, explosivos, reactivos, radiactivos, volátiles, corrosivos y/o tóxicos; los cuales pueden causar daño a la salud humana y/o al medio ambiente. Así mismo se consideran peligrosos los envases, empaques y residuos que hayan estado en contacto con ellos.  
+        p.mb-3 Son aquellos residuos producidos por el generador con alguna de las siguientes características: infecciosos o de riesgo biológico, combustibles, inflamables, explosivos, reactivos, radiactivos, volátiles, corrosivos y/o tóxicos; los cuales pueden causar daño a la salud humana y/o al medio ambiente. Así mismo, se consideran peligrosos los envases, empaques y residuos que hayan estado en contacto con ellos.  
           img(src='@/assets/curso/temas/dots.svg', alt='' style="width: 119px ").d-lg-block.d-none
       .col-lg-2.col-7: img(src='@/assets/curso/temas/64.svg', alt='')
     .titulo-tres: h3 Código de colores 
-    p.mb-5(data-aos='fade-right') En cada sección generadora de residuos peligrosos y no peligrosos se ubican recipientes desechables y reutilizables perfectamente identificados, de acuerdo con el código de colores. Todos los recipientes para almacenamiento temporal deben estar rotulados con el nombre de la sección a la que pertenecen y la clase de residuo que contienen. 
+    p(data-aos='fade-right') En cada sección generadora de residuos peligrosos y no peligrosos se ubican recipientes desechables y reutilizables perfectamente identificados, de acuerdo con el código de colores. Todos los recipientes para almacenamiento temporal deben estar rotulados con el nombre de la sección a la que pertenecen y la clase de residuo que contienen.
+
+    .titulo-sexto.color-acento-contenido.mt-5(data-aos='fade-right')
+      h5 Figura 1. 
+      span Código de colores     
     img(src='@/assets/curso/temas/65.svg', alt='').mb-5
 
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -279,20 +283,20 @@
             th Etiqueta 
         tbody
           tr
-            td No peligrosos biodegradables 
+            td No peligrosos biodegradables. 
             td Hojas y tallos de los árboles, grama, barrido del prado, resto de alimentos contaminados. 
             td Verde 
-            td Rotular con: residuos aprovechables 
+            td Rotular con: residuos aprovechables. 
           tr
-            td No peligrosos residuos no aprovechables 
+            td No peligrosos residuos no aprovechables. 
             td Papel higiénico, servilletas, papeles y cartones contaminados con comida, papeles metalizados. 
             td Negro
-            td Rotular con: residuos no aprovechable
+            td Rotular con: residuos no aprovechable.
           tr
-            td No peligrosos residuos aprovechables 
+            td No peligrosos residuos aprovechables. 
             td Plástico, cartón, vidrio, papel y metales. 
             td Blanco 
-            td Rotular con: residuos aprovechables 
+            td Rotular con: residuos aprovechables. 
     Separador
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.3 Control de plagas

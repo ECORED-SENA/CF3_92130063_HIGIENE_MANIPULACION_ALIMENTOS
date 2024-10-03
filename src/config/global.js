@@ -124,7 +124,7 @@ export default {
   },
   complementario: [
     {
-      tema: 'Condiciones básicas de higiene en la fabricación de alimentos',
+      tema: 'Condiciones básicas de higiene en la fabricación de alimentos.',
       referencia:
         'Agència Catalana de Seguretat Alimentària. (2021). Manual de manipuladores de alimentos.',
       tipo: 'Documento',
@@ -132,28 +132,28 @@ export default {
         'https://scientiasalut.gencat.cat/bitstream/handle/11351/5178/manual_basic_manipulacio_aliments_2019_cas.pdf?sequence=7&isAllowed=y',
     },
     {
-      tema: 'Edificios e instalaciones',
+      tema: 'Edificios e instalaciones.',
       referencia:
         'Quality Check Academy (2020). Edificación e Instalaciones. [Archivo de video] Youtube.',
       tipo: 'Video',
       link: 'https://youtu.be/HvwNmy1w1zs?feature=shared',
     },
     {
-      tema: 'Equipos y utensilios',
+      tema: 'Equipos y utensilios.',
       referencia:
         'Asonaman - Certificado Manipulador Alimentos. (2015). Tema 8. Características de las instalaciones, equipos y utensilios. [Archivo de video] Youtube.',
       tipo: 'Video',
       link: 'https://youtu.be/CUS_CiATcr0?feature=shared',
     },
     {
-      tema: 'Limpieza y desinfección',
+      tema: 'Limpieza y desinfección.',
       referencia:
         'Javier Vega. (2021). Limpieza y Desinfección en la Industria de Alimentos. [Archivo de video] Youtube',
       tipo: 'Video',
       link: 'https://youtu.be/NbsXfon-JV0?feature=shared',
     },
     {
-      tema: 'Agentes limpiadores',
+      tema: 'Agentes limpiadores.',
       referencia:
         'Ministerio de Ambiente y Desarrollo Sostenible. (2021). Guía de limpieza y desinfección.',
       tipo: 'Guía',
@@ -161,14 +161,14 @@ export default {
         'https://www.minambiente.gov.co/wp-content/uploads/2021/11/GUIA_DE_LIMPIEZA_Y_DESINFECCION.pdf',
     },
     {
-      tema: 'Manejo de residuos sólidos y líquidos',
+      tema: 'Manejo de residuos sólidos y líquidos.',
       referencia:
         'SICCAS - OEI. (2016) Modulo 2 Tema 3 - Manejo de residuos sólidos y líquidos. [Archivo de video] Youtube.',
       tipo: 'Video',
       link: 'https://youtu.be/tgJZpgG_PU4?feature=shared',
     },
     {
-      tema: 'Control de plagas',
+      tema: 'Control de plagas.',
       referencia:
         'Alicorp Oficial. (2020). Guía para el control de plagas - crecemos juntos. [Archivo de video] Youtube.',
       tipo: 'Video',
