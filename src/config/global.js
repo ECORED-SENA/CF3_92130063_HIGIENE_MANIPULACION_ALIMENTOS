@@ -134,21 +134,21 @@ export default {
     {
       tema: 'Edificios e instalaciones.',
       referencia:
-        'Quality Check Academy (2020). Edificación e Instalaciones. [Archivo de video] Youtube.',
+        'Quality Check Academy (2020). Edificación e Instalaciones. [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/HvwNmy1w1zs?feature=shared',
     },
     {
       tema: 'Equipos y utensilios.',
       referencia:
-        'Asonaman - Certificado Manipulador Alimentos. (2015). Tema 8. Características de las instalaciones, equipos y utensilios. [Archivo de video] Youtube.',
+        'Asonaman - Certificado Manipulador Alimentos. (2015). Tema 8. Características de las instalaciones, equipos y utensilios. [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/CUS_CiATcr0?feature=shared',
     },
     {
       tema: 'Limpieza y desinfección.',
       referencia:
-        'Javier Vega. (2021). Limpieza y Desinfección en la Industria de Alimentos. [Archivo de video] Youtube',
+        'Javier Vega. (2021). Limpieza y Desinfección en la Industria de Alimentos. [Archivo de video].',
       tipo: 'Video',
       link: 'https://youtu.be/NbsXfon-JV0?feature=shared',
     },
@@ -163,14 +163,14 @@ export default {
     {
       tema: 'Manejo de residuos sólidos y líquidos.',
       referencia:
-        'SICCAS - OEI. (2016) Modulo 2 Tema 3 - Manejo de residuos sólidos y líquidos. [Archivo de video] Youtube.',
+        'SICCAS - OEI. (2016) Modulo 2 Tema 3 - Manejo de residuos sólidos y líquidos. [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/tgJZpgG_PU4?feature=shared',
     },
     {
       tema: 'Control de plagas.',
       referencia:
-        'Alicorp Oficial. (2020). Guía para el control de plagas - crecemos juntos. [Archivo de video] Youtube.',
+        'Alicorp Oficial. (2020). Guía para el control de plagas - crecemos juntos. [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/YMG0y70Rh_E?feature=shared',
     },
