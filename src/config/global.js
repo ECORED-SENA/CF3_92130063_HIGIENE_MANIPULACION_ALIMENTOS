@@ -266,8 +266,6 @@ export default {
     {
       referencia:
         'Jacas, J. (2014). El control biológico de plagas y enfermedades: ( ed.). Universitat Jaume I. Servei de Comunicació i Publicacions.',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/53255',
     },
     {
       referencia: 'Ministerio de la Protección Social. (2000). Decreto 2676.',
