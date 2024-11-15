@@ -273,8 +273,6 @@ export default {
     {
       referencia:
         'Requena Peláez, J. M. (Coord.). (2012). Higiene alimentaria en centros: (2 ed.). Editorial ICB.',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/105615',
     },
     {
       referencia:
